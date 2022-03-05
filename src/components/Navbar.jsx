@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
 
         <Search
-          width={'500px'}
+          width={'600px'}
           placeholder='Buscar productos, marcas y más...'
           options={searchOptions}
           onChange={(option, e) => setCapturedSearch(option)}
