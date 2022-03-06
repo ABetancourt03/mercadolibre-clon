@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import Search from "search-react-input";
+import React, { useState } from 'react'
+import Search from 'search-react-input'
 
-const searchOptions = [];
+const searchOptions = []
 
 // Styles
-import "../styles/Navbar.css";
+import '../styles/Navbar.css'
 
 const Navbar = () => {
-  const [capturedSearch, setCapturedSearch] = useState(null);
+  const [capturedSearch, setCapturedSearch] = useState(null)
 
   return (
     <div className="Navbar">
@@ -20,7 +20,7 @@ const Navbar = () => {
         </a>
 
         <Search
-          width={"600px"}
+          width={'600px'}
           placeholder="Buscar productos, marcas y más..."
           options={searchOptions}
           onChange={(option, e) => setCapturedSearch(option)}
@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

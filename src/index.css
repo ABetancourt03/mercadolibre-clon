@@ -1,21 +1,21 @@
 @font-face {
-  font-family: "proximanova-light";
-  src: url("./src/public/fonts/proximanova-light.woff2") format("woff2");
+  font-family: 'proximanova-light';
+  src: url('./src/public/fonts/proximanova-light.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "proximanova-regular";
-  src: url("./src/public/fonts/proximanova-regular.woff2") format("woff2");
+  font-family: 'proximanova-regular';
+  src: url('./src/public/fonts/proximanova-regular.woff2') format('woff2');
 }
 
 @font-face {
-  font-family: "proximanova-semibold";
-  src: url("./src/public/fonts/proximanova-semibold.woff2") format("woff2");
+  font-family: 'proximanova-semibold';
+  src: url('./src/public/fonts/proximanova-semibold.woff2') format('woff2');
 }
 
 html {
   box-sizing: border-box;
-  font-family: "proximanova-regular";
+  font-family: 'proximanova-regular';
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

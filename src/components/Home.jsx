@@ -1,6 +1,6 @@
-import React from "react";
-import "../styles/Home.css";
-import Product from "./Product";
+import React from 'react'
+import '../styles/Home.css'
+import Product from './Product'
 
 const Home = () => {
   return (
@@ -25,7 +25,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const Product = () => {
   return (
@@ -12,7 +12,7 @@ const Product = () => {
         <p className="shipping">Envío gratis</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Product;
+export default Product
