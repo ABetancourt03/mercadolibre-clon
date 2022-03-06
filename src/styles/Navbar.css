@@ -5,7 +5,7 @@
   background-color: #fff159;
   height: 100px;
   width: 100%;
-  color: #333
+  color: #333;
 }
 
 .Navbar img {
@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-margin: 0 40px 0 25px
+  margin: 0 40px 0 25px;
 }
 
 .nav-bottom {
@@ -51,7 +51,7 @@ margin: 0 40px 0 25px
 a {
   color: #333;
   text-decoration: none;
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
   margin: auto 1rem;
 }
 
@@ -61,7 +61,7 @@ a:hover {
 
 .mid a {
   color: #44444490;
-  transition: ease-in-out .2s;
+  transition: ease-in-out 0.2s;
 }
 
 .mid a:hover {
