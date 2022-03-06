@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <div className='Navbar'>
       <div className="nav-top"> 
-        <div className='nav-logo'>
+        <a href='/' className='nav-logo'>
           <img src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png" alt="Logo" />
-        </div>
+        </a>
 
         <Search
           width={'600px'}
