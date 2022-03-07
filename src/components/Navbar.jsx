@@ -1,10 +1,13 @@
 import React, { useState } from 'react'
-import Search from 'search-react-input'
+import { Link } from 'react-router-dom'
 
-const searchOptions = []
+// Components
+import Search from 'search-react-input'
 
 // Styles
 import '../styles/Navbar.css'
+
+const searchOptions = [{ product: 'Product 1' }]
 
 const Navbar = () => {
   const [capturedSearch, setCapturedSearch] = useState(null)
@@ -12,12 +15,12 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="nav-top">
-        <a href="/" className="nav-logo">
+        <Link to="/" className="nav-logo">
           <img
             src="https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png"
             alt="Logo"
           />
-        </a>
+        </Link>
 
         <Search
           width={'600px'}

@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Product = ({ img, title, price, currency, shipping }) => {
   return (
-    <div className="product">
+    <Link to="/products/product1" className="product">
       <img src={img} alt="Product" />
       <div className="price">
         <h2>
@@ -11,7 +12,7 @@ const Product = ({ img, title, price, currency, shipping }) => {
         {shipping === 'free' && <p className="shipping">Envío gratis</p>}
         <p className="product-title">{title}</p>
       </div>
-    </div>
+    </Link>
   )
 }
 
