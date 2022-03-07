@@ -28,13 +28,13 @@ h2 {
 }
 
 .title a {
+  webkit-align-self: baseline;
   align-self: baseline;
   color: #3483fa;
   font-size: 16px;
   margin: auto 16px 2px;
   text-decoration: none;
   transition: ease-in-out 0.3s;
-  webkit-align-self: baseline;
 }
 
 .title a:hover {
@@ -49,8 +49,8 @@ h2 {
 
 .products {
   display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   width: 90%;
 }
 
@@ -59,7 +59,6 @@ h2 {
   padding: 10px;
   background-color: #fff;
   width: 250px;
-  margin: 0 0 20px 0;
   transition: ease-in-out 0.15s;
   border-radius: 3px 3px 5px 5px;
   box-shadow: 0px 0px 5px 0.2px #00000045;
@@ -68,12 +67,6 @@ h2 {
 .product:hover {
   cursor: pointer;
   box-shadow: 0px 0px 20px 2px #00000050;
-}
-
-.product-title {
-  color: #888;
-  font-size: 15px;
-  transition: ease-in-out 0.2s;
 }
 
 .price {
