@@ -6,9 +6,6 @@ import '../styles/Home.css'
 // Components
 import Product from './Product'
 
-// Styles
-import '../styles/Home.css'
-
 const Home = () => {
   return (
     <div className="Home">
