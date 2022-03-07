@@ -11,7 +11,8 @@ const Details1 = {
   title: 'Teléfono Android Celular Krip K4m 3g 1gb Ram (sin Cargador)',
   price: '69.99',
   currency: '$',
-  shipping: '',
+  shipping: 'free',
+  location: 'Mun. Libertador (Suroeste), Distrito Capital',
   quantity: '50'
 }
 
