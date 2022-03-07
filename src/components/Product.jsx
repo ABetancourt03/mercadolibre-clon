@@ -10,7 +10,7 @@ const Product = ({ img, title, price, currency, shipping }) => {
           {currency} {price}
         </h2>
         {shipping === 'free' && <p className="shipping">Envío gratis</p>}
-        <p className="product-title">{title}</p>
+        <p className="p-title">{title}</p>
       </div>
     </Link>
   )
