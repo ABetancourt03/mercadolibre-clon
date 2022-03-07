@@ -19,6 +19,7 @@ h2 {
 }
 
 .title {
+  margin-left: 5%;
   display: flex;
   flex-direction: row;
   margin-left: 5%;
@@ -70,7 +71,7 @@ h2 {
   box-shadow: 0px 0px 20px 2px #00000050;
 }
 
-.product-title {
+.p-title {
   color: #999;
   font-size: 15px;
   transition: ease-in-out 0.2s;
