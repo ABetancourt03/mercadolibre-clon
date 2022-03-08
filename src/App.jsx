@@ -18,14 +18,14 @@ const Details1 = {
 
 const App = () => {
   return (
-    <div className="App">
+    <div className='App'>
       <Router>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path='/' component={Home} />
           <Route
             exact
-            path="/products/product1"
+            path='/products/product1'
             children={<ProductDetails details={Details1} />}
           />
         </Switch>

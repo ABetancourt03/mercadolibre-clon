@@ -8,20 +8,20 @@ import Product from './Product'
 
 const Home = () => {
   return (
-    <div className="Home">
-      <div className="Slider">
+    <div className='Home'>
+      <div className='Slider'>
         <img
-          src="https://http2.mlstatic.com/D_NQ_650676-MLA49205723737_022022-OO.webp"
-          alt="Slider Image"
+          src='https://http2.mlstatic.com/D_NQ_650676-MLA49205723737_022022-OO.webp'
+          alt='Slider Image'
         />
       </div>
 
-      <div className="title">
+      <div className='title'>
         <h2>Basado en tu última visita</h2>
-        <a href="">Ver historial</a>
+        <a href=''>Ver historial</a>
       </div>
-      <div className="home">
-        <div className="products">
+      <div className='home'>
+        <div className='products'>
           <Product
             img={
               'https://http2.mlstatic.com/D_Q_NP_905176-MLV43506956032_092020-AB.webp'
