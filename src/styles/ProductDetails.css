@@ -74,7 +74,9 @@
 
 .shipping {
   font-size: 20px;
+  color: green;
   padding: 10px;
+  font-weight: bold;
 }
 
 .location {
