@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import '../styles/ProductDetails.css'
 
-const initialImage =
-  'https://http2.mlstatic.com/D_Q_NP_905176-MLV43506956032_092020-AB.webp'
+const initialImage = '../src/public/products/krip/1.webp'
 
 const ProductDetails = ({ details }) => {
   let { title, price, currency, shipping, location, quantity } = details
@@ -10,17 +9,11 @@ const ProductDetails = ({ details }) => {
 
   const handleChangeImage = e => {
     if (e.target.id === 'image1') {
-      setImage(
-        'https://http2.mlstatic.com/D_Q_NP_905176-MLV43506956032_092020-AB.webp'
-      )
+      setImage('../src/public/products/krip/1.webp')
     } else if (e.target.id === 'image2') {
-      setImage(
-        'https://http2.mlstatic.com/D_NQ_NP_740232-MLV43506953124_092020-O.webp'
-      )
+      setImage('../src/public/products/krip/2.webp')
     } else if (e.target.id === 'image3') {
-      setImage(
-        'https://http2.mlstatic.com/D_NQ_NP_624629-MLV43506945617_092020-O.webp'
-      )
+      setImage('../src/public/products/krip/3.webp')
     }
   }
 
@@ -33,7 +26,7 @@ const ProductDetails = ({ details }) => {
               onClick={handleChangeImage}
               id='image1'
               width='50px'
-              src='https://http2.mlstatic.com/D_Q_NP_905176-MLV43506956032_092020-AB.webp'
+              src='../src/public/products/krip/1.webp'
               alt='Image 1'
             />
           </div>
@@ -42,7 +35,7 @@ const ProductDetails = ({ details }) => {
               onClick={handleChangeImage}
               id='image2'
               width='50px'
-              src='https://http2.mlstatic.com/D_NQ_NP_740232-MLV43506953124_092020-O.webp'
+              src='../src/public/products/krip/2.webp'
               alt='Image 2'
             />
           </div>
@@ -51,7 +44,7 @@ const ProductDetails = ({ details }) => {
               onClick={handleChangeImage}
               id='image3'
               width='50px'
-              src='https://http2.mlstatic.com/D_NQ_NP_624629-MLV43506945617_092020-O.webp'
+              src='../src/public/products/krip/3.webp'
               alt='Image 3'
             />
           </div>

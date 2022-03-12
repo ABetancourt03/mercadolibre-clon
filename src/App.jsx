@@ -6,8 +6,7 @@ import Navbar from './components/Navbar'
 import ProductDetails from './components/ProductDetails'
 
 const Details1 = {
-  image:
-    'https://http2.mlstatic.com/D_Q_NP_905176-MLV43506956032_092020-AB.webp',
+  image: 'src/public/products/krip/1.webp',
   title: 'Teléfono Android Celular Krip K4m 3g 1gb Ram (sin Cargador)',
   price: '69.99',
   currency: '$',

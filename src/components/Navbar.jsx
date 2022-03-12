@@ -16,10 +16,7 @@ const Navbar = () => {
     <div className='Navbar'>
       <div className='nav-top'>
         <Link to='/' className='nav-logo'>
-          <img
-            src='https://http2.mlstatic.com/frontend-assets/ui-navigation/5.18.9/mercadolibre/logo__large_plus.png'
-            alt='Logo'
-          />
+          <img src='../src/public/logo.png' alt='Logo' />
         </Link>
 
         <Search
@@ -30,7 +27,7 @@ const Navbar = () => {
         />
 
         <img
-          src='https://http2.mlstatic.com/D_NQ_636685-MLA48754422021_012022-OO.webp'
+          src='../src/public/envios-gratis.webp'
           title='DISFRUTA ENVÍOS GRATIS'
           alt='DISFRUTA ENVÍOS GRATIS'
         />
