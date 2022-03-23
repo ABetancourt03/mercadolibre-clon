@@ -15,6 +15,10 @@
   "devDependencies": {
     "@vitejs/plugin-react": "1.0.7",
     "search-react-input": "1.2.4",
+    "standard": "16.0.4",
     "vite": "2.8.6"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   }
 }
