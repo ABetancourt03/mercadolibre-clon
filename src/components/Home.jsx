@@ -22,27 +22,27 @@ const Home = () => {
           <Product
             img='src/public/products/krip/1.webp'
             title='Teléfono Android Celular Krip K4m 3g 1gb Ram (sin Cargador)'
-            price={'69.99'}
-            currency={'$'}
-            shipping={''}
+            price='69.99'
+            currency='$'
+            shipping=''
           />
           <Product
             img='src/public/products/cafetera/1.webp'
-            price={'56.99'}
-            currency={'$'}
-            shipping={'free'}
+            price='56.99'
+            currency='$'
+            shipping='free'
           />
           <Product
             img='src/public/products/perolito/1.webp'
-            currency={'$'}
-            price={'15.99'}
-            shipping={'free'}
+            currency='$'
+            price='15.99'
+            shipping='free'
           />
           <Product
             img='src/public/products/forro/1.webp'
-            price={'99.99'}
-            currency={'$'}
-            shipping={''}
+            price='99.99'
+            currency='$'
+            shipping=''
           />
         </div>
       </div>

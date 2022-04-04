@@ -4,7 +4,7 @@ import '../styles/ProductDetails.css'
 const initialImage = '../src/public/products/krip/1.webp'
 
 const ProductDetails = ({ details }) => {
-  let { title, price, currency, shipping, location, quantity } = details
+  const { title, price, currency, shipping, location, quantity } = details
   const [image, setImage] = useState(initialImage)
 
   const handleChangeImage = e => {

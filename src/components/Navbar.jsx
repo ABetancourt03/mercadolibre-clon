@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 // Components
@@ -7,10 +7,10 @@ import Search from 'search-react-input'
 // Styles
 import '../styles/Navbar.css'
 
-const searchOptions = [{ product: 'Product 1' }]
+// const searchOptions = [{ product: 'Product 1' }]
 
 const Navbar = () => {
-  const [capturedSearch, setCapturedSearch] = useState(null)
+  // const [capturedSearch, setCapturedSearch] = useState(null)
 
   return (
     <div className='Navbar'>
@@ -20,10 +20,10 @@ const Navbar = () => {
         </Link>
 
         <Search
-          width={'600px'}
+          width='600px'
           placeholder='Buscar productos, marcas y más...'
-          options={searchOptions}
-          onChange={(option, e) => setCapturedSearch(option)}
+        // options={searchOptions}
+        // onChange={(option, e) => setCapturedSearch(option)}
         />
 
         <img
